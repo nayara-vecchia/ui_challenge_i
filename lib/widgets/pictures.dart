@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class Pictures extends StatelessWidget {
-  // const Pictures({super.key});
 
   final List images = [
     'https://picsum.photos/250?image=1',

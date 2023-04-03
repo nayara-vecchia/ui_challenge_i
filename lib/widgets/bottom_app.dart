@@ -10,23 +10,23 @@ class BottomBar extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: <Widget>[
         IconButton(
-          icon: Icon(Icons.home),
+          icon: const Icon(Icons.home),
           onPressed: () {},
         ),
         IconButton(
-          icon: Icon(Icons.search),
+          icon: const Icon(Icons.search),
           onPressed: () {},
         ),
         IconButton(
-          icon: Icon(Icons.add_box_outlined),
+          icon: const Icon(Icons.add_box_outlined),
           onPressed: () {},
         ),
         IconButton(
-          icon: Icon(CupertinoIcons.heart),
+          icon: const Icon(CupertinoIcons.heart),
           onPressed: () {},
         ),
         IconButton(
-          icon: Icon(CupertinoIcons.person_fill),
+          icon: const Icon(CupertinoIcons.person_fill),
           onPressed: () {},
         ),
       ],

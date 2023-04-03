@@ -3,7 +3,6 @@ import 'package:flutter/cupertino.dart';
 
 import './widgets/body.dart';
 import './widgets/bottom_app.dart';
-import './widgets/pictures.dart';
 
 void main() {
   runApp(const MyApp());
