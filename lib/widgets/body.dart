@@ -10,7 +10,9 @@ class Body extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(children: <Widget>[
       Profile(),
-      Pictures()
+      Expanded(
+        child: Pictures(),
+      ),
     ],);
   }
 }

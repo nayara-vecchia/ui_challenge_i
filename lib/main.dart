@@ -3,6 +3,7 @@ import 'package:flutter/cupertino.dart';
 
 import './widgets/body.dart';
 import './widgets/bottom_app.dart';
+import './widgets/pictures.dart';
 
 void main() {
   runApp(const MyApp());
@@ -52,23 +53,26 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-   @override
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
         backgroundColor: Colors.transparent,
-        title: Center(
-          child: Text('LALALALA', style: TextStyle(
-            color: Colors.black,
-            fontWeight: FontWeight.bold,
-          ),),
+        title: const Center(
+          child: Text(
+            'LALALALA',
+            style: TextStyle(
+              color: Colors.black,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
         ),
       ),
       body: const Body(),
-      bottomNavigationBar: BottomAppBar(
+      bottomNavigationBar: const BottomAppBar(
         child: BottomBar(),
-      ),      
+      ),
     );
   }
 }
